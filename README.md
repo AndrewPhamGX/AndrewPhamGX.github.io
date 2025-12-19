@@ -6,5 +6,5 @@ Showcasing my background, skills, and projects in software engineering
 
 ## 💻 Languages & Tools Used
 - HTML
-- vCSS
+- CSS
 - Git & GitHub Pages
