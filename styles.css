@@ -142,9 +142,8 @@ transform: translateX(5px);
     }
  }
  .aboutme-item {
-    /* display:grid; */
     /* grid-template-columns: 265px 2fr; */
-    display:inline-flex;
+    display: flex;
     align-items: flex-start;
     margin-top:5px;
     gap:10px;
@@ -203,8 +202,8 @@ transform: translateX(5px);
 }
 @media screen and (min-width: 860px) {
     .involvement-item {
-        /*display: flow-root;*/
-        display: grid;
+        /* display: flow-root; */
+        display: grid; 
         grid-template-columns: 115px 1fr;
         column-gap: 20px;
         align-items: start;
