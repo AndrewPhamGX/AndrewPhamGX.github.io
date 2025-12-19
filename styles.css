@@ -117,7 +117,7 @@ transform: translateX(5px);
  }
 
  .home {
-    background: url(images/bear.png) no-repeat;
+    background: url(images/bear.png) no-repeat center 10%;
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -134,14 +134,20 @@ transform: translateX(5px);
     .home .content-wrapper {
         padding: 10px;
     }
-    .content-beg {
+    .content-bg {
         padding: 20px;
+    }
+    .aboutme-item{
+        flex-direction: column;
     }
  }
  .aboutme-item {
-    display:grid;
-    grid-template-columns: 265px 2fr;
+    /* display:grid; */
+    /* grid-template-columns: 265px 2fr; */
+    display:inline-flex;
+    align-items: flex-start;
     margin-top:5px;
+    gap:10px;
  }
  /*RESUME
 ----------------------------*/
