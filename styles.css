@@ -1,10 +1,4 @@
-
-/* This code changes the texts color
-*{
-    color: darkslategray;
-} */
-
-  /* 
+/* 
   Color Palette
 
    Hooker’s Green: #5A7D7C
@@ -28,7 +22,7 @@ html, body{
 }
 
 body { 
-    background:#DADFF7;
+    background: radial-gradient(ellipse at right,#A0C1D1, #DADFF7);
     margin: 0;
     font-family: "Open Sans", sans-serif;
     font-size: 1.5rem;
@@ -190,7 +184,7 @@ transform: translateX(5px);
 /*INVOLVEMENT
 ----------------------------*/
 .involvement-item {
-    margin: 30px 0;
+    margin: 25px 0;
 }
 .involvement-logo img {
     width: 115px; /*300px*/
@@ -232,6 +226,47 @@ transform: translateX(5px);
 }
 /*PROJECT
 -----------------------------*/
+.project-item {
+    margin: 25px 0;
+}
+.project-image img {
+    width: 180px;
+    align-self: start;
+    margin: 0px;
+}
+.project-detail h4 {
+margin-top: 0px; 
+margin-bottom: 0px;
+}
+@media screen and (min-width: 860px){
+.project-item {
+    display: grid; 
+    grid-template-columns: 180px 1fr;
+    column-gap: 20px;
+    align-items: start;
+}
+.project-img {
+    width: 115px;
+    float: left;
+    margin-right: 20px
+}
+}
+@media screen and (min-width: 650px) and (max-width: 859px) {
+    .project-wrapper {
+        display: grid;
+        grid-template-columns: repeat(2 , 1fr);
+        column-gap: 20px;
+    }
+    .project-logo img {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 500px){
+    .project-logo img {
+        width: 100%;
+        margin-bottom:10px
+    }
+}
 
 /*RELEVANT COURSEWORK
 -----------------------------*/
