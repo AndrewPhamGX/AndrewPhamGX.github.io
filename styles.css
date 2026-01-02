@@ -215,12 +215,12 @@ transform: translateX(5px);
         column-gap: 20px;
     }
     .involvement-logo img {
-        width: 100%;
+        width: 75%;
     }
 }
 @media screen and (max-width: 500px){
     .involvement-logo img {
-        width: 100%;
+        width: 40%;
         margin-bottom:10px
     }
 }
