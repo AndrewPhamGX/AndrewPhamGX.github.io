@@ -10,10 +10,12 @@ document.addEventListener("DOMContentLoaded", function() {
 
             if(entry.isIntersecting){
                 entry.target.classList.add('animate-in');
+            }else{
+                entry.target.classList.remove('animate-in');
             }
         });
     }, {
-        threshold: 0.1,  //Triggers when the element is 10% visible
+        threshold: 0.1, //Triggers when the element is 10% visible
         //
         rootMargin: '0px 0px -50px 0px' //Starts the animation 50px before the element appears
     });
