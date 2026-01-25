@@ -1,4 +1,5 @@
-//Scroll Animation
+/*Scroll Animation 
+----------------------------*/
 document.addEventListener("DOMContentLoaded", function() {
 
     //Get all resume section
@@ -25,7 +26,8 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 });
 
-//Typing Animation Homepage
+/*Typing Animation Homepage
+----------------------------*/
 document.addEventListener('DOMContentLoaded', function() {
 
 const nameType = document.querySelector('.home h1')
